@@ -8,6 +8,7 @@ type Props = {
 
 export const ErrorNotification: React.FC<Props> = props => {
   const { error, setError } = props;
+
   return (
     <div
       data-cy="ErrorNotification"

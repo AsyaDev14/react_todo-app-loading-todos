@@ -12,7 +12,7 @@ export const TodoList: React.FC<Props> = props => {
   return (
     <section className="todoapp__main" data-cy="TodoList">
       {filteredTodos.map(todo => (
-        <TodoItem key={todo.id} todo={todo}/>
+        <TodoItem key={todo.id} todo={todo} />
       ))}
     </section>
   );
